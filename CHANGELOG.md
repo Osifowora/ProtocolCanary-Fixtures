@@ -46,6 +46,7 @@ discussion and diff. New entries must include that link; see
   records were regenerated, so `protocol-28/evidence/records/` holds one record
   per fixture (42). Closes
   [issue #363](https://github.com/StellarCanary/ProtocolCanary-Fixtures/issues/363).
+  ([PR #444])
 
 - `tools/pack/archive_digests.py` and `.github/workflows/archive-baseline.yml`:
   a cross-platform baseline for the pack archive (issue #365). Every cell of
@@ -758,3 +759,4 @@ discussion and diff. New entries must include that link; see
 [PR #433]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/433
 [PR #432]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/432
 [PR #431]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/431
+[PR #444]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/444
