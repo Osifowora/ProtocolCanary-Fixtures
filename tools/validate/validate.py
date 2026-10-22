@@ -112,16 +112,22 @@ XDR_KINDS = {"decode-success", "decode-failure", "roundtrip", "encode-equals"}
 # the corresponding method must already exist upstream in canary-rpc.
 RPC_METHODS = {
     "get-events",
+    "get-fee-stats",
+    "get-health",
     "get-latest-ledger",
     "get-ledger-entries",
     "get-ledgers",
     "get-network",
     "get-transaction",
     "get-transactions",
+    "get-version-info",
 }
 _RPC_METHOD_PARAMS: dict[str, dict[str, bool]] = {
     "get-network": {},
     "get-latest-ledger": {},
+    "get-health": {},
+    "get-version-info": {},
+    "get-fee-stats": {},
     "get-ledger-entries": {"keys": True, "xdrFormat": False},
     "get-transaction": {"hash": True, "xdrFormat": False},
     "get-ledgers": {"startLedger": False, "pagination": False, "xdrFormat": False},
